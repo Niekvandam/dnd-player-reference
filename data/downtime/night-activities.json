@@ -1,0 +1,52 @@
+{
+  "title": "Nighttime Activities",
+  "icon": "Moon",
+  "color": "text-indigo-600",
+  "items": [
+    {
+      "id": "nighttime-vigil",
+      "title": "Nighttime Vigil",
+      "content": "Stay awake to observe the town at night: notice who comes and goes, and pick up on whispered rumors or odd happenings. Your Perception check might uncover plans of mischief—or a secret meeting."
+    },
+    {
+      "id": "explore-abandoned",
+      "title": "Explore Abandoned Buildings",
+      "content": "When the town is quiet, brave the shadows of old warehouses, vacant mansions, or mysterious basements. These spots might hide forgotten lore or secret treasures (with appropriate caution, of course)."
+    },
+    {
+      "id": "midnight-excursion",
+      "title": "Join a Midnight Excursion",
+      "content": "Organize or join a small group to patrol the streets or investigate strange lights in the distance. Cooperative exploration during the night can lead to unexpected discoveries."
+    },
+    {
+      "id": "stargaze",
+      "title": "Stargaze and Reflect",
+      "content": "Find a rooftop or a quiet garden to observe the stars. Use this time to muse on personal quests or ask the DM if the night sky hints at any magical phenomena."
+    },
+    {
+      "id": "secret-meetings",
+      "title": "Participate in Secret Club Meetings",
+      "content": "Some towns have hidden social clubs or underground gatherings at night. Using Discretion and Stealth, try to join these meetings to gain insider information (or just enjoy the intrigue)."
+    },
+    {
+      "id": "practice-stealth",
+      "title": "Practice Nighttime Stealth",
+      "content": "The cover of darkness is ideal for honing stealth or shadow-watching techniques. Sneaking around can be both fun and useful when planning future escapades."
+    },
+    {
+      "id": "listen-sounds",
+      "title": "Listen for Unusual Sounds",
+      "content": "Pay attention to eerie noises or whispers—sometimes, strange happenings only occur under the moonlight. These moments might lead to encounters with wandering spirits or unusual characters."
+    },
+    {
+      "id": "night-markets",
+      "title": "Check Out Night Markets",
+      "content": "Some towns have markets that only open at night, with rare goods or mysterious vendors. It's a perfect chance to barter for unusual items or hear hidden stories from eclectic characters."
+    },
+    {
+      "id": "perform",
+      "title": "Perform in Public",
+      "content": "Use the night's energy to recite poetry, sing, or perform a short play at a local square. Creative performances might attract the right attention and spark a new quest."
+    }
+  ]
+}

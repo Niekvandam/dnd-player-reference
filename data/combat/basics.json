@@ -1,0 +1,58 @@
+{
+  "title": "Combat Basics",
+  "icon": "Zap",
+  "color": "text-amber-500",
+  "items": [
+    {
+      "id": "initiative",
+      "title": "Initiative",
+      "content": "Determines the order in which players and enemies take their actions. Roll a d20 + your Dexterity modifier at the start of combat."
+    },
+    {
+      "id": "surprise",
+      "title": "Surprise",
+      "content": "Sneak up on enemies & surprise attack! Surprised creatures cannot act, move or take reactions during the first round of combat."
+    },
+    {
+      "id": "attacking",
+      "title": "Attacking",
+      "content": "To see if you hit a target, roll a D20 + STR or DEX modifier + Proficiency Bonus. This number needs to beat the target's AC. Typically STR for melee attacks and DEX for ranged attacks."
+    },
+    {
+      "id": "damage",
+      "title": "Damage",
+      "content": "Refer to the weapon's statistics to determine its Damage Dice, a D4, D6, D8, D10 or D12, + STR or DEX modifier (depending on weapon)."
+    },
+    {
+      "id": "turn-structure",
+      "title": "Turn Structure",
+      "content": [
+        {
+          "label": "Action",
+          "description": "Your main action for the turn"
+        },
+        {
+          "label": "Bonus Action",
+          "description": "An additional smaller action if you have an ability that grants one"
+        },
+        {
+          "label": "Movement",
+          "description": "Move up to your speed"
+        },
+        {
+          "label": "Reaction",
+          "description": "One reaction per round, used on your turn or someone else's"
+        },
+        {
+          "label": "Free Object Interaction",
+          "description": "Draw a weapon, open a door, etc."
+        }
+      ]
+    },
+    {
+      "id": "critical-hits",
+      "title": "Critical Hits",
+      "content": "When you roll a natural 20 on an attack roll, you score a critical hit. Double all damage dice for the attack."
+    }
+  ]
+}

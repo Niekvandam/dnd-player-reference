@@ -1,0 +1,33 @@
+{
+  "title": "Spellcasting Basics",
+  "icon": "Sparkles",
+  "color": "text-purple-600",
+  "items": [
+    {
+      "id": "cantrips",
+      "title": "Cantrips",
+      "content": "Minor spells that cost no spell slots to cast. Can be used an unlimited number of times."
+    },
+    {
+      "id": "spell-level",
+      "title": "Spell Level",
+      "content": "Determined by the power of the spell. More powerful spells/higher level spell slots are gained as you level up."
+    },
+    {
+      "id": "spell-slots",
+      "title": "Spell Slots",
+      "content": "A magical resource that dictates how many spells of that level you can cast. Refer to the class table for quantities."
+    },
+    {
+      "id": "spell-attack",
+      "title": "Spell Attack & Save DC",
+      "content": "'Make an attack roll' spells require you to beat the enemies AC. Roll a D20 + Prof Bonus + Spellcasting Modifier (determined by class).",
+      "additional": "Spells that require the enemy to make a saving throw have to beat your Spell Save DC = 8 + Prof Bonus + Spellcasting Modifier (determined by class)."
+    },
+    {
+      "id": "spell-synergy",
+      "title": "Spell Synergy",
+      "content": "Try combining spells with your allies for greater effect. For example, one caster could use Grease while another uses Fire Bolt to create a flaming hazard."
+    }
+  ]
+}

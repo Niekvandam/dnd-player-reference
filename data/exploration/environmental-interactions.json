@@ -1,0 +1,27 @@
+{
+  "title": "Environmental Interactions",
+  "icon": "Mountain",
+  "color": "text-stone-600",
+  "items": [
+    {
+      "id": "terrain",
+      "title": "Difficult Terrain",
+      "content": "Moving through difficult terrain costs double movement. Examples include dense forests, rocky ground, deep snow, and swamps."
+    },
+    {
+      "id": "stealth-infiltration",
+      "title": "Stealth and Infiltration",
+      "content": "Use cover, shadows, and distractions to move unseen. Consider ambient light, cover quality, and potential distractions when planning your approach."
+    },
+    {
+      "id": "interactive-environment",
+      "title": "Interactive Environment",
+      "content": "Use environmental objects—ropes, barrels, chandeliers—as improvised tools or weapons in creative ways. Look for ways to gain advantage by using your surroundings."
+    },
+    {
+      "id": "mystical-sites",
+      "title": "Mystical Sites",
+      "content": "Seek out shrines, ancient stones, or natural sanctuaries that might bestow temporary boons or provide vital warnings. These places often hold secrets or power that can aid your journey."
+    }
+  ]
+}

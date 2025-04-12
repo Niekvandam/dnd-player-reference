@@ -1,0 +1,34 @@
+{
+  "inspirationItems": [
+    {
+      "question": "I need information",
+      "action": "Gathering Information",
+      "description": "at taverns or markets"
+    },
+    {
+      "question": "I want to make friends",
+      "action": "Persuasion",
+      "description": "to build rapport"
+    },
+    {
+      "question": "I need to detect lies",
+      "action": "Insight",
+      "description": "to read intentions"
+    },
+    {
+      "question": "I want to impress someone",
+      "action": "Performance",
+      "description": "to showcase talents"
+    },
+    {
+      "question": "I need to be convincing",
+      "action": "Persuasion",
+      "description": "with logical arguments"
+    },
+    {
+      "question": "I need to intimidate",
+      "action": "Intimidation",
+      "description": "to force compliance"
+    }
+  ]
+}

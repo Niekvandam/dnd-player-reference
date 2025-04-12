@@ -1,0 +1,57 @@
+{
+  "title": "Outrageous Actions",
+  "icon": "Sparkles",
+  "color": "text-pink-600",
+  "items": [
+    {
+      "id": "daredevil-stunts",
+      "title": "Daredevil Stunts & Big Leaps",
+      "content": "Try a jaw-dropping acrobatic feat—a backflip off a wall, a gravity-defying leap over a chasm, or even a reckless charge into a fray. Your DM may call for an Athletics or Acrobatics check with extra narrative flair, rewarding your boldness with dramatic advantage or unexpected comic relief."
+    },
+    {
+      "id": "midnight-dance",
+      "title": "Midnight Dance-Off",
+      "content": "Challenge an NPC (or even a rival party member) to a dance battle. Describe your outlandish dance moves and roll a Performance check to win local admiration or even distract a nearby guard or enemy during tense moments."
+    },
+    {
+      "id": "outrageous-monologues",
+      "title": "Outrageous Monologues",
+      "content": "Deliver an epic, over-the-top speech that rallies allies or unnerves your foes. An Insight or Persuasion roll (with a bit of theatrical flair) might convince a skeptical crowd, sway an enemy's mood, or even inspire an impromptu side-quest."
+    },
+    {
+      "id": "explosive-improvisation",
+      "title": "Explosive Improvisation",
+      "content": "Mix up your spellcasting or weapon maneuvers in a burst of creativity—combine a minor spell with an unconventional item (like hurling a teapot while casting a gust) for a surprising effect. This \"wild combo\" might require a roll from your DM and is encouraged as a narrative flourish that could yield bonus damage or open unforeseen avenues."
+    },
+    {
+      "id": "prankster-gambit",
+      "title": "Prankster's Gambit",
+      "content": "Orchestrate an elaborate prank on a rival NPC or even on your own party for comic relief. Use Deception or Sleight of Hand in an uncharacteristically humorous way—the risk of side effects or attracting unwanted attention only adds to the fun!"
+    },
+    {
+      "id": "bizarre-disguises",
+      "title": "Bizarre Disguises & Masquerades",
+      "content": "Create an outrageous disguise—think a mismatched costume, an absurd wig, or even a magical mask—that lets you infiltrate an enemy lair or a guarded gala unnoticed. Roll Deception or Performance, and if you succeed, you might just slip past foes or gather secret info while everyone is too amused or confused to resist."
+    },
+    {
+      "id": "double-dare",
+      "title": "Double-Dare Decisions",
+      "content": "Propose a wild \"double-dare\" to yourself or your party: choose between two extremely risky, high-reward actions. It might be a choice between sneaking into a notorious criminal's den or challenging a local legend to a duel—the thrill lies in the risk itself."
+    },
+    {
+      "id": "spontaneous-musical",
+      "title": "Spontaneous Musical Numbers",
+      "content": "Break into an impromptu song or rousing musical number during a tense negotiation or battle—using your flair and charisma to distract opponents or rally allies. This theatrical burst (often resolved with a Performance check) might charm a hostile crowd, create confusion among enemies, or simply score you some legendary status in the tavern's lore."
+    },
+    {
+      "id": "fourth-wall",
+      "title": "Risky \"Fourth-Wall\" Moments",
+      "content": "Step out of the usual narrative briefly by having your character make a self-aware comment or adopt an eccentric, meta perspective. It's a chance for humorous commentary that might even confound NPCs (or impress a creative DM) enough to reward you with a quirky bonus or unexpected narrative twist."
+    },
+    {
+      "id": "exotic-challenges",
+      "title": "Exotic Local Challenges",
+      "content": "Seek out bizarre local traditions or nightly rituals in town—a secret street race, a mystical scavenger hunt, or even a midnight \"silly contest\" that only the locals know about. Embrace these opportunities to immerse yourself in the culture (and chaos) of the setting, using skills like Insight, Performance, or even a daring leap of faith to join in the madness."
+    }
+  ]
+}

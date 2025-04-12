@@ -1,0 +1,34 @@
+{
+  "inspirationItems": [
+    {
+      "question": "I want to make money",
+      "action": "Practicing a Profession",
+      "description": "or Crafting"
+    },
+    {
+      "question": "I need new skills",
+      "action": "Training",
+      "description": "in tools or languages"
+    },
+    {
+      "question": "I want to make connections",
+      "action": "Carousing",
+      "description": "to build a network"
+    },
+    {
+      "question": "I need information",
+      "action": "Research",
+      "description": "in libraries or archives"
+    },
+    {
+      "question": "I want magical items",
+      "action": "Crafting",
+      "description": "or Shopping for components"
+    },
+    {
+      "question": "I need to lay low",
+      "action": "Hiding",
+      "description": "or changing your identity"
+    }
+  ]
+}

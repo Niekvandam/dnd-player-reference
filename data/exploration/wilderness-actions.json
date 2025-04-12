@@ -1,0 +1,57 @@
+{
+  "title": "Wilderness Actions",
+  "icon": "Route",
+  "color": "text-green-600",
+  "items": [
+    {
+      "id": "scout-ahead",
+      "title": "Scout Ahead",
+      "content": "Take a moment to survey the trail for unusual landmarks, hidden trails, or signs of danger. Use your Investigation or Survival skills to \"read\" the landscape."
+    },
+    {
+      "id": "forage-hunt",
+      "title": "Forage and Hunt",
+      "content": "Search the natural surroundings for edible plants, wildlife tracks, or sources of water. A successful Survival check might even yield useful resources or hints about local flora and fauna."
+    },
+    {
+      "id": "camp-rest",
+      "title": "Camp and Rest",
+      "content": "Set up a temporary campsite where you can share stories, plan the next move, or keep watch. Use downtime to get a short rest, swap rumors, or prepare your next strategy."
+    },
+    {
+      "id": "track-wildlife",
+      "title": "Track Local Wildlife",
+      "content": "Observe animals in their natural habitat and use their behavior as clues—sometimes they indicate hidden dangers or safe paths. A Perception or Survival check here can be both interesting and informative."
+    },
+    {
+      "id": "scout-landmarks",
+      "title": "Scout Natural Landmarks",
+      "content": "Examine unusual rock formations, mysterious clearings, or ancient trees. These could become meeting points, secret landmarks, or even clues to an old legend."
+    },
+    {
+      "id": "practice-skills",
+      "title": "Practice Your Skills",
+      "content": "Use travel time to train: practice archery, sword swings on targets, or even mimic stealth maneuvers among trees. Little exercises can boost your confidence and might even be roleplayed into improvements or small bonuses."
+    },
+    {
+      "id": "interact-environment",
+      "title": "Interact with the Environment",
+      "content": "Look for natural puzzles (e.g., peculiar arrangements of stones or streams) to solve as a mini-challenge for hints about secret trails or hidden caches. Use creativity: the DM might reward clever exploration."
+    },
+    {
+      "id": "follow-rumors",
+      "title": "Follow Rumors on the Road",
+      "content": "Ask local travelers or merchants about odd happenings or mysterious events nearby. This can lead you off the beaten path into side-quests or unexpected encounters."
+    },
+    {
+      "id": "map-journey",
+      "title": "Map Your Journey",
+      "content": "Record landmarks and notable features of your route. A well-kept travel log might even reveal patterns that change your approach over time."
+    },
+    {
+      "id": "practice-mindfulness",
+      "title": "Practice Mindfulness",
+      "content": "Pause to enjoy the scenery—a beautiful sunset, a starlit sky, or the sound of a distant waterfall. Not every moment needs action; sometimes inspiration comes from simply taking a breath and noticing the details."
+    }
+  ]
+}

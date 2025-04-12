@@ -1,0 +1,37 @@
+{
+  "title": "Bonus Actions",
+  "icon": "Zap",
+  "color": "text-amber-500",
+  "items": [
+    {
+      "id": "offhand-attack",
+      "title": "Two-Weapon Fighting",
+      "content": "When you take the Attack action with a light melee weapon, you can use a bonus action to attack with a different light melee weapon in your other hand. You don't add your ability modifier to the damage unless it's negative."
+    },
+    {
+      "id": "cunning-action",
+      "title": "Cunning Action (Rogue)",
+      "content": "As a Rogue, you can use a bonus action to Dash, Disengage, or Hide."
+    },
+    {
+      "id": "bardic-inspiration",
+      "title": "Bardic Inspiration (Bard)",
+      "content": "As a Bard, you can use a bonus action to inspire another creature, giving them a Bardic Inspiration die."
+    },
+    {
+      "id": "spell-bonus-action",
+      "title": "Spells with Bonus Action Casting Time",
+      "content": "Some spells have a casting time of 1 bonus action. If you cast a spell as a bonus action, you can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action."
+    },
+    {
+      "id": "rage",
+      "title": "Rage (Barbarian)",
+      "content": "As a Barbarian, you can enter a rage as a bonus action, gaining advantages in combat."
+    },
+    {
+      "id": "flurry-of-blows",
+      "title": "Flurry of Blows (Monk)",
+      "content": "As a Monk, after taking the Attack action, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+    }
+  ]
+}

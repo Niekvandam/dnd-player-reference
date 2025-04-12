@@ -1,0 +1,34 @@
+{
+  "inspirationItems": [
+    {
+      "question": "I'm not sure where we are",
+      "action": "Navigation",
+      "description": "with a Survival check"
+    },
+    {
+      "question": "We need supplies",
+      "action": "Foraging",
+      "description": "to find food and water"
+    },
+    {
+      "question": "I want to find tracks",
+      "action": "Tracking",
+      "description": "to follow creatures"
+    },
+    {
+      "question": "Night is coming",
+      "action": "Watch",
+      "description": "rotations for camp"
+    },
+    {
+      "question": "I want to scout ahead",
+      "action": "Slow Pace",
+      "description": "and use Stealth"
+    },
+    {
+      "question": "We need to hurry",
+      "action": "Fast Pace",
+      "description": "but be aware of reduced perception"
+    }
+  ]
+}

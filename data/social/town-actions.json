@@ -1,0 +1,57 @@
+{
+  "title": "Town Actions",
+  "icon": "Building2",
+  "color": "text-purple-600",
+  "items": [
+    {
+      "id": "visit-tavern",
+      "title": "Visit the Local Tavern",
+      "content": "Chat with the locals over food or drink—gather rumors, meet potential allies, or even find unexpected quests. The atmosphere might also spark ideas for your next step."
+    },
+    {
+      "id": "explore-markets",
+      "title": "Explore Market Districts",
+      "content": "Wander through busy bazaars or quiet alleys. Investigate stalls, haggle for unique items, or ask vendors about rare ingredients (or even a local secret)."
+    },
+    {
+      "id": "stroll-streets",
+      "title": "Stroll the Streets",
+      "content": "Simply walk around town to get a feel for its layout and personality. Look for hidden doorways, unusual statues, or a busy notice board with postings for odd jobs."
+    },
+    {
+      "id": "check-announcements",
+      "title": "Check Out Public Announcements",
+      "content": "Read town criers' messages, posted flyers, or bulletin boards. They often hint at local disputes, missing persons, or events that need a hero's touch."
+    },
+    {
+      "id": "engage-locals",
+      "title": "Engage Locals in Conversation",
+      "content": "Use your social skills to ask about local legends, mysterious happenings, or even gossip. A Persuasion or Insight check might help you learn whom to trust."
+    },
+    {
+      "id": "explore-district",
+      "title": "Explore a District",
+      "content": "Pick a part of town (a market, an artisan quarter, a secluded garden) and roam it in depth. You might uncover secret passages, an old meeting hall, or hidden historical details."
+    },
+    {
+      "id": "attend-festival",
+      "title": "Attend a Festival or Event",
+      "content": "If there's a festival, fair, or public performance, participate in the merriment. These events are great for meeting people and finding new opportunities."
+    },
+    {
+      "id": "seek-mentor",
+      "title": "Seek Out a Mentor or Guild",
+      "content": "Visit a local guild hall or workshop. Your character might pick up new skills, get commissioned work, or join a quest group."
+    },
+    {
+      "id": "volunteer-services",
+      "title": "Volunteer Your Services",
+      "content": "Offer to help fix a problem—patch up a guard's wounds, assist in a market stall, or help organize town defenses. Not only does it build your reputation, but it might also reveal hidden storylines."
+    },
+    {
+      "id": "learn-history",
+      "title": "Learn the Town's History",
+      "content": "Visit libraries, shrines, or local historians to learn the lore of the area. This can guide your choices or unveil clues to broader adventures."
+    }
+  ]
+}

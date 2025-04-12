@@ -1,0 +1,16 @@
+{
+  "title": "Advantage & Disadvantage",
+  "icon": "Dices",
+  "color": "text-emerald-600",
+  "content": [
+    {
+      "label": "ADVANTAGE",
+      "description": "Roll two D20, take the highest result. Granted when you have a favorable situation."
+    },
+    {
+      "label": "DISADVANTAGE",
+      "description": "Roll two D20, take the lowest result. Imposed when you have an unfavorable situation."
+    }
+  ],
+  "note": "Advantage and disadvantage cancel each other out, even if multiple sources grant advantage or disadvantage."
+}

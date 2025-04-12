@@ -1,0 +1,52 @@
+{
+  "title": "Location-Specific Options",
+  "icon": "Building2",
+  "color": "text-violet-600",
+  "items": [
+    {
+      "id": "tavern",
+      "title": "Tavern & Inn",
+      "content": [
+        "Order food and drinks",
+        "Listen for rumors (Wisdom (Perception) check)",
+        "Perform for room and board (Charisma (Performance) check)",
+        "Gamble with locals (various checks depending on the game)",
+        "Rent a room for the night",
+        "Meet contacts or quest givers"
+      ]
+    },
+    {
+      "id": "marketplace",
+      "title": "Marketplace",
+      "content": [
+        "Buy and sell goods",
+        "Haggle for better prices (Charisma (Persuasion) check)",
+        "Look for rare or unusual items",
+        "Gather information from merchants",
+        "Identify valuable items (Intelligence (Investigation) check)"
+      ]
+    },
+    {
+      "id": "temple",
+      "title": "Temple or Shrine",
+      "content": [
+        "Pray for guidance or blessings",
+        "Seek healing services",
+        "Learn about local religious customs",
+        "Request aid from religious officials",
+        "Research religious lore (Intelligence (Religion) check)"
+      ]
+    },
+    {
+      "id": "guild-hall",
+      "title": "Guild Hall",
+      "content": [
+        "Seek membership or sponsorship",
+        "Look for work related to the guild's specialty",
+        "Train in guild-specific skills",
+        "Network with other professionals",
+        "Access guild resources and facilities"
+      ]
+    }
+  ]
+}

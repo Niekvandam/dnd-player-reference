@@ -1,0 +1,35 @@
+{
+  "title": "Personal Development",
+  "icon": "Scroll",
+  "color": "text-amber-600",
+  "items": [
+    {
+      "id": "training",
+      "title": "Training",
+      "content": "Spend downtime training to gain proficiency in a language or with a tool. Requires 250 days and 1 gp per day, though this time can be reduced if you have a good teacher.",
+      "example": "Learning Thieves' Tools from a guild contact, studying Elvish with a scholar"
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "content": "Spend time researching a topic in libraries, archives, or by consulting experts. Make Intelligence checks to uncover information.",
+      "example": "Researching an ancient artifact's history, studying a monster's weaknesses"
+    },
+    {
+      "id": "religious-service",
+      "title": "Religious Service",
+      "content": "Spend time serving at a temple of your deity. This can earn you favor with religious organizations and potentially divine insight.",
+      "example": "Tending to the sick at a temple of Pelor, transcribing sacred texts"
+    },
+    {
+      "id": "skill-advancement",
+      "title": "Skill Advancement",
+      "content": "Use downtime to learn new languages, research arcane lore, or practice unique skills. Results in long-term benefits that later unlock special abilities or opportunities."
+    },
+    {
+      "id": "personal-quests",
+      "title": "Personal Quests",
+      "content": "Set personal goals based on your character's history, which can be integrated into the broader narrative for unique rewards. Reinforces individual agency and long-term character development."
+    }
+  ]
+}

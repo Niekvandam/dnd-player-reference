@@ -1,0 +1,34 @@
+{
+  "inspirationItems": [
+    {
+      "question": "I want to control the battlefield",
+      "action": "Ready",
+      "description": "action to set up tactical plays"
+    },
+    {
+      "question": "I'm surrounded!",
+      "action": "Disengage",
+      "description": "to safely reposition"
+    },
+    {
+      "question": "I need to protect my ally",
+      "action": "Help",
+      "description": "or position to provide cover"
+    },
+    {
+      "question": "The enemy is hiding",
+      "action": "Search",
+      "description": "or create area effects"
+    },
+    {
+      "question": "I want to be creative",
+      "action": "Object Interaction",
+      "description": "to use the environment"
+    },
+    {
+      "question": "I'm low on health",
+      "action": "Dodge",
+      "description": "to reduce incoming damage"
+    }
+  ]
+}

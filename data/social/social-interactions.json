@@ -1,0 +1,37 @@
+{
+  "title": "Social Interactions",
+  "icon": "MessageCircle",
+  "color": "text-purple-600",
+  "items": [
+    {
+      "id": "persuasion",
+      "title": "Persuasion",
+      "content": "Make a Charisma (Persuasion) check to convince someone to do something or believe something through logic, etiquette, or good-natured appeals."
+    },
+    {
+      "id": "deception",
+      "title": "Deception",
+      "content": "Make a Charisma (Deception) check to convincingly hide the truth, either verbally or through your actions."
+    },
+    {
+      "id": "intimidation",
+      "title": "Intimidation",
+      "content": "Make a Charisma (Intimidation) check to influence someone through overt threats, hostile actions, or physical violence."
+    },
+    {
+      "id": "insight",
+      "title": "Insight",
+      "content": "Make a Wisdom (Insight) check to determine the true intentions of a creature, detect a lie, or predict someone's next action."
+    },
+    {
+      "id": "performance",
+      "title": "Performance",
+      "content": "Use a Charisma (Performance) check to impress others with your musical talent, acting, storytelling, or other entertainment skills."
+    },
+    {
+      "id": "gather-information",
+      "title": "Gathering Information",
+      "content": "Spend time asking questions at taverns, markets, or other public places to learn about recent events, rumors, or specific people. This typically involves Charisma checks."
+    }
+  ]
+}

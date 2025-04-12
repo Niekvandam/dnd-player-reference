@@ -1,0 +1,57 @@
+{
+  "title": "When You're Feeling Lost",
+  "icon": "HelpCircle",
+  "color": "text-blue-600",
+  "items": [
+    {
+      "id": "check-background",
+      "title": "Check Your Character's Background",
+      "content": "Reflect on your backstory for personal goals or hobbies. Sometimes your character's past holds clues to what they might do next—a quest for lost family, or a sudden longing for home."
+    },
+    {
+      "id": "whats-my-angle",
+      "title": "Ask \"What's My Angle?\"",
+      "content": "When you're at a standstill, ask yourself: \"What can I do that fits who my character is?\" Align your actions with your strengths—be it combat prowess, magical curiosity, or silver-tongued negotiation."
+    },
+    {
+      "id": "use-class-features",
+      "title": "Use Your Class Features",
+      "content": "Think about your character's special abilities or spells that aren't fully explored. A dormant talent might inspire you to try a new approach, like using a bonus spell to reveal hidden secrets."
+    },
+    {
+      "id": "new-challenge",
+      "title": "Embrace a New Challenge",
+      "content": "Propose an unconventional action to your DM: a daring stunt, a risky negotiation, or an exploration of a mysterious alleyway. Fresh challenges keep the adventure exciting and open up unexpected opportunities."
+    },
+    {
+      "id": "share-ideas",
+      "title": "Share Ideas with Your Party",
+      "content": "Discuss your thoughts with other players and see if they have suggestions. Collaborative brainstorming can turn a boring moment into a turning point in the adventure."
+    },
+    {
+      "id": "social-gambits",
+      "title": "Experiment with Social Gambits",
+      "content": "Try using a new social skill—maybe charm a local shopkeeper or try a bit of gossip to stir up intrigue. This helps you break the routine and might lead to side quests or hidden rewards."
+    },
+    {
+      "id": "team-activity",
+      "title": "Organize a Team Activity",
+      "content": "Propose a friendly contest among party members—such as an archery contest or a stealth challenge in a safe area of town. It keeps morale high and builds character relationships."
+    },
+    {
+      "id": "reflect-events",
+      "title": "Reflect on Recent Events",
+      "content": "Take a moment to discuss what has happened so far with your party. This can inspire ideas on how to use that knowledge to gain an edge in future encounters."
+    },
+    {
+      "id": "hidden-opportunities",
+      "title": "Search for Hidden Opportunities",
+      "content": "If a door seems out of place or a street corner looks oddly quiet, give it a closer look. Hidden rooms, secret shortcuts, or even side characters might offer new directions."
+    },
+    {
+      "id": "what-if",
+      "title": "Initiate a \"What If?\" Scenario",
+      "content": "Ask your DM \"What if my character did X?\"—even if it's out of the ordinary. DMs often love creative ideas and may reward bold or imaginative thinking."
+    }
+  ]
+}

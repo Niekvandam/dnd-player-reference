@@ -1,0 +1,67 @@
+{
+  "title": "Actions",
+  "icon": "Zap",
+  "color": "text-amber-500",
+  "items": [
+    {
+      "id": "attack",
+      "title": "Attack",
+      "content": [
+        "Make a melee or ranged attack with your weapon",
+        "Roll d20 + your attack bonus",
+        "On hit, roll damage dice + modifiers",
+        "Critical hit on natural 20 (double damage dice)"
+      ]
+    },
+    {
+      "id": "cast-spell",
+      "title": "Cast a Spell",
+      "content": "Cast a spell with a casting time of 1 action. Follow the spell's description for effects."
+    },
+    {
+      "id": "dash",
+      "title": "Dash",
+      "content": "Double your movement speed for the turn."
+    },
+    {
+      "id": "disengage",
+      "title": "Disengage",
+      "content": "Your movement doesn't provoke opportunity attacks for the rest of the turn."
+    },
+    {
+      "id": "dodge",
+      "title": "Dodge",
+      "content": "Until the start of your next turn, any attack roll made against you has disadvantage, and you make Dexterity saving throws with advantage."
+    },
+    {
+      "id": "help",
+      "title": "Help",
+      "content": "The creature you help gains advantage on the next ability check it makes to perform the task you are helping with. Alternatively, you can aid an ally attacking a creature, giving advantage on the next attack roll."
+    },
+    {
+      "id": "hide",
+      "title": "Hide",
+      "content": "Make a Dexterity (Stealth) check to hide. You must have cover or be heavily obscured."
+    },
+    {
+      "id": "ready",
+      "title": "Ready",
+      "content": "Prepare to take an action later, in response to a specific trigger. When the trigger occurs, you can use your reaction to take the readied action."
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "content": "Make a Wisdom (Perception) or Intelligence (Investigation) check to find something."
+    },
+    {
+      "id": "use-object",
+      "title": "Use an Object",
+      "content": "Use an item that requires an action to use, such as drinking a potion or activating a magic item."
+    },
+    {
+      "id": "improvised-actions",
+      "title": "Improvised Actions",
+      "content": "Try using non-standard items or creative methods in combat (such as using a lantern as a bludgeon). Your DM may reward creative thinking with bonus effects or advantages."
+    }
+  ]
+}

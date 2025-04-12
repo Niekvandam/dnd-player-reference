@@ -1,0 +1,37 @@
+{
+  "title": "Reactions",
+  "icon": "Shield",
+  "color": "text-emerald-600",
+  "items": [
+    {
+      "id": "opportunity-attack",
+      "title": "Opportunity Attack",
+      "content": "When a hostile creature you can see moves out of your reach, you can use your reaction to make one melee attack against it."
+    },
+    {
+      "id": "shield-spell",
+      "title": "Shield Spell",
+      "content": "Some spells, like Shield, can be cast as a reaction to a specific trigger."
+    },
+    {
+      "id": "readied-action",
+      "title": "Readied Action",
+      "content": "When the trigger for your readied action occurs, you can use your reaction to perform the action."
+    },
+    {
+      "id": "defensive-duelist",
+      "title": "Defensive Duelist (Feat)",
+      "content": "When you are wielding a finesse weapon and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack."
+    },
+    {
+      "id": "uncanny-dodge",
+      "title": "Uncanny Dodge (Rogue)",
+      "content": "As a Rogue, when an attacker you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    },
+    {
+      "id": "hellish-rebuke",
+      "title": "Hellish Rebuke (Warlock)",
+      "content": "As a Warlock, when you're damaged by a creature within 60 feet, you can use your reaction to cast this spell and cause flames to surround the attacker."
+    }
+  ]
+}

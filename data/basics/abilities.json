@@ -1,0 +1,37 @@
+{
+  "title": "Abilities",
+  "icon": "Brain",
+  "color": "text-purple-600",
+  "items": [
+    {
+      "name": "STRENGTH",
+      "color": "bg-red-50",
+      "description": "Athletic ability: raw strength such as how hard you can hit or push. Used for most melee attacks."
+    },
+    {
+      "name": "DEXTERITY",
+      "color": "bg-green-50",
+      "description": "A measure of your nimbleness, the ability to be quiet, careful or graceful. Used for AC & ranged attacks."
+    },
+    {
+      "name": "CONSTITUTION",
+      "color": "bg-amber-50",
+      "description": "Health, stamina & vital force. Determines your Hit Points, avoiding poisons, etc."
+    },
+    {
+      "name": "INTELLIGENCE",
+      "color": "bg-blue-50",
+      "description": "Book smarts, the ability to remember events, understand the arcane & think on the fly. Used to gain intel in & out of combat."
+    },
+    {
+      "name": "WISDOM",
+      "color": "bg-emerald-50",
+      "description": "Your ability to understand people & animals, a representation of your intuition. Used to prevent fear or charm."
+    },
+    {
+      "name": "CHARISMA",
+      "color": "bg-purple-50",
+      "description": "Measure of your social skill, your ability to convey your message to convince others. Used for social encounters."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Weapon Properties",
+  "icon": "Sword",
+  "color": "text-stone-600",
+  "items": [
+    {
+      "id": "ammunition",
+      "title": "Ammunition",
+      "content": "Keep track of ammunition, requires free hand"
+    },
+    {
+      "id": "finesse",
+      "title": "Finesse",
+      "content": "Use strength or dexterity for attacking/damage"
+    },
+    {
+      "id": "heavy",
+      "title": "Heavy",
+      "content": "Small creatures have disadvantage to wield"
+    },
+    {
+      "id": "light",
+      "title": "Light",
+      "content": "Light weapons are small and easy to handle, making them ideal for two-weapon fighting"
+    },
+    {
+      "id": "loading",
+      "title": "Loading",
+      "content": "Because of the time required to load this weapon, you can fire only one piece of ammunition when you use an action, bonus action, or reaction to fire it"
+    },
+    {
+      "id": "reach",
+      "title": "Reach",
+      "content": "This weapon adds 5 feet to your reach when you attack with it"
+    },
+    {
+      "id": "thrown",
+      "title": "Thrown",
+      "content": "You can throw the weapon to make a ranged attack"
+    },
+    {
+      "id": "two-handed",
+      "title": "Two-Handed",
+      "content": "This weapon requires two hands to use"
+    },
+    {
+      "id": "versatile",
+      "title": "Versatile",
+      "content": "This weapon can be used with one or two hands"
+    }
+  ]
+}

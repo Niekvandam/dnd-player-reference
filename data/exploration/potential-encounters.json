@@ -1,0 +1,22 @@
+{
+  "title": "Potential Encounters",
+  "icon": "Map",
+  "color": "text-purple-600",
+  "items": [
+    {
+      "id": "combat-encounters",
+      "title": "Combat Encounters",
+      "content": "Be prepared for random encounters with hostile creatures appropriate to the environment. Your DM will determine when these occur."
+    },
+    {
+      "id": "local-legends",
+      "title": "Local Legends",
+      "content": "Collect scattered legends from local folk—each revelation may uncover hidden quest opportunities or ancient prophecies. Ask about local stories wherever you go."
+    },
+    {
+      "id": "time-sensitive",
+      "title": "Time-Sensitive Events",
+      "content": "Keep an eye out for quests with time limits where delays can change the outcome or reduce rewards. These situations require swift decision-making and prioritization."
+    }
+  ]
+}

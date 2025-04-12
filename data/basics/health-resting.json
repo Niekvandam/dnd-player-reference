@@ -1,0 +1,27 @@
+{
+  "title": "Health & Resting",
+  "icon": "Heart",
+  "color": "text-red-600",
+  "items": [
+    {
+      "id": "hit-points",
+      "title": "Hit Points (HP)",
+      "content": "Represent your character's health and stamina. When you take damage, you lose HP. When you reach 0 HP, you fall unconscious and must make death saving throws."
+    },
+    {
+      "id": "temp-hp",
+      "title": "Temporary Hit Points",
+      "content": "Extra health granted by spells and abilities, added onto current HP. Temporary HP do not stack; if you gain more, you can choose to keep existing Temp HP or swap for the new."
+    },
+    {
+      "id": "short-rest",
+      "title": "Short Rest (1 Hour)",
+      "content": "Can roll available Hit Dice to restore Hit Points. You have 1 Hit Die per character level, the type is determined by your Class. Some abilities may restore after a short rest."
+    },
+    {
+      "id": "long-rest",
+      "title": "Long Rest (8 Hours)",
+      "content": "Restores all HP, Spell Slots, Abilities, & can cure 1 level of exhaustion. Restores half of your maximum Hit Dice."
+    }
+  ]
+}

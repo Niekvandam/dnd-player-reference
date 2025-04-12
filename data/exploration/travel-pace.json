@@ -1,0 +1,40 @@
+{
+  "title": "Travel Pace",
+  "icon": "Footprints",
+  "color": "text-amber-600",
+  "items": [
+    {
+      "id": "travel-pace",
+      "title": "Travel Pace",
+      "content": [
+        {
+          "label": "Fast",
+          "description": "30 miles/day, -5 penalty to passive Perception"
+        },
+        {
+          "label": "Normal",
+          "description": "24 miles/day, no penalties"
+        },
+        {
+          "label": "Slow",
+          "description": "18 miles/day, able to use stealth"
+        }
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "content": "Make a Wisdom (Survival) check to avoid getting lost. Having a map grants advantage on this check."
+    },
+    {
+      "id": "foraging",
+      "title": "Foraging",
+      "content": "Make a Wisdom (Survival) check to find food and water. The DC depends on the abundance of food and water in the region."
+    },
+    {
+      "id": "tracking",
+      "title": "Tracking",
+      "content": "Make a Wisdom (Survival) check to follow tracks. The DC depends on the ground surface and age of the tracks."
+    }
+  ]
+}

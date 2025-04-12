@@ -1,0 +1,7 @@
+{
+  "title": "Proficiency",
+  "icon": "HelpCircle",
+  "color": "text-blue-600",
+  "content": "When you are proficient in a skill or weapon, tool kit etc, you may add your PROFICIENCY BONUS, which increases as you level up. Some things like armor require you to be proficient to use them.",
+  "levels": ["Level 1-4: +2", "Level 5-8: +3", "Level 9-12: +4", "Level 13-16: +5", "Level 17-20: +6"]
+}

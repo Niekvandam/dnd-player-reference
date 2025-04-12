@@ -1,0 +1,37 @@
+{
+  "title": "City Services",
+  "icon": "Store",
+  "color": "text-amber-600",
+  "items": [
+    {
+      "id": "shopping",
+      "title": "Shopping",
+      "content": [
+        "Purchase equipment, weapons, armor, and supplies",
+        "Sell treasures and unwanted items (typically at half price)",
+        "Commission custom items (may require a deposit and waiting time)",
+        "Haggle for better prices (Charisma (Persuasion) check)"
+      ]
+    },
+    {
+      "id": "hiring",
+      "title": "Hiring Help",
+      "content": "Find and hire hirelings, mercenaries, or specialists to assist with specific tasks or accompany you on adventures."
+    },
+    {
+      "id": "information",
+      "title": "Information Services",
+      "content": "Pay for information from local information brokers, sages, or scribes who specialize in gathering and selling knowledge."
+    },
+    {
+      "id": "healing",
+      "title": "Healing Services",
+      "content": "Visit temples, herbalists, or healers who can provide healing services, cure diseases, or remove curses for a fee."
+    },
+    {
+      "id": "transportation",
+      "title": "Transportation",
+      "content": "Arrange for transportation by hiring carriages, boats, or mounts to travel between locations more quickly or comfortably."
+    }
+  ]
+}

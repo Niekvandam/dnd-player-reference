@@ -1,0 +1,42 @@
+{
+  "title": "Movement",
+  "icon": "Move",
+  "color": "text-blue-600",
+  "items": [
+    {
+      "id": "basic-movement",
+      "title": "Basic Movement",
+      "content": [
+        "Move up to your speed (typically 30 feet)",
+        "Can break up movement before and after actions",
+        "Difficult terrain costs double movement",
+        "Moving while prone costs double movement"
+      ]
+    },
+    {
+      "id": "climbing",
+      "title": "Climbing",
+      "content": "Climbing costs extra movement (usually double). The DM might require a Strength (Athletics) check if the climb is difficult."
+    },
+    {
+      "id": "swimming",
+      "title": "Swimming",
+      "content": "Swimming costs extra movement (usually double). The DM might require a Strength (Athletics) check if the water is rough."
+    },
+    {
+      "id": "jumping",
+      "title": "Jumping",
+      "content": "Your long jump is equal to your Strength score in feet if you move at least 10 feet before jumping. Your high jump is equal to 3 + your Strength modifier in feet if you move at least 10 feet before jumping."
+    },
+    {
+      "id": "tactical-positioning",
+      "title": "Tactical Positioning",
+      "content": "Position yourself to gain cover (+2 to +5 AC), flank enemies (potential advantage), or protect allies. Smart positioning can be as valuable as a powerful attack."
+    },
+    {
+      "id": "squeezing",
+      "title": "Squeezing",
+      "content": "You can squeeze through a space one size smaller than you. Doing so costs extra movement, and you have disadvantage on attack rolls and Dexterity saving throws."
+    }
+  ]
+}

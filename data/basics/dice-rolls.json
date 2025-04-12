@@ -1,0 +1,35 @@
+{
+  "title": "Dice & Rolls",
+  "icon": "Dices",
+  "color": "text-stone-600",
+  "items": [
+    {
+      "name": "D20",
+      "description": "Used for all skill checks, saving throws, and attack rolls. If you're unsure which dice to use, the answer is most likely the D20!"
+    },
+    {
+      "name": "D4",
+      "description": "Used for some weapon damage and healing spells."
+    },
+    {
+      "name": "D6",
+      "description": "Common damage die for weapons and spells."
+    },
+    {
+      "name": "D8",
+      "description": "Used for medium weapon damage and some healing."
+    },
+    {
+      "name": "D10",
+      "description": "Used for heavy weapon damage."
+    },
+    {
+      "name": "D12",
+      "description": "Used for the heaviest weapons like greataxes."
+    },
+    {
+      "name": "D100 (2d10)",
+      "description": "Used for percentile rolls and random tables."
+    }
+  ]
+}

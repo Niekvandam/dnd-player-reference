@@ -1,0 +1,57 @@
+{
+  "title": "More Outrageous Actions",
+  "icon": "Zap",
+  "color": "text-orange-600",
+  "items": [
+    {
+      "id": "storytelling-showdown",
+      "title": "Impromptu Storytelling Showdown",
+      "content": "Spin a wildly exaggerated tale of your past exploits—one so outlandish that it both distracts enemies and inspires allies. Use your Performance or Persuasion skills to add a narrative boost that might sway NPC opinions or confuse your foes."
+    },
+    {
+      "id": "daring-kindness",
+      "title": "Daring Display of Kindness",
+      "content": "In the middle of a tense moment, perform an unexpected act of generosity (like gifting a potion or valuable item to a foe) with a flamboyant flourish. This bold move can unsettle opponents and sometimes earn unexpected alliances or humorous in-game consequences."
+    },
+    {
+      "id": "hilarious-impersonation",
+      "title": "Hilarious Impersonation",
+      "content": "Mimic a local authority figure or notorious NPC in an over-the-top manner to create confusion or laughter in a tense social setting. Roll a Performance or Deception check to see if your impersonation distracts or even charms onlookers."
+    },
+    {
+      "id": "unorthodox-combo",
+      "title": "Unorthodox Spell & Action Combo",
+      "content": "Combine a minor spell with an absurd action—like casting Light on your face while performing a dramatic handstand—to turn the mundane into a spectacle. This creative mash-up could yield surprising benefits if your DM rewards your ingenuity."
+    },
+    {
+      "id": "riddle-challenge",
+      "title": "Outrageous Riddle Challenge",
+      "content": "Challenge an NPC to a bizarre riddle duel where the questions and answers are as absurd as they are entertaining. Success might open up new dialogue options or reveal hidden information in a nontraditional way."
+    },
+    {
+      "id": "epic-taunt",
+      "title": "Epic Combat Taunt",
+      "content": "Launch into an exaggerated, dramatic monologue mid-combat—think theatrical battle poetry or an overblown war cry that shakes enemy morale. This might grant your allies a morale boost or distract foes long enough for a tactical advantage."
+    },
+    {
+      "id": "provocative-debate",
+      "title": "Risky Provocative Debate",
+      "content": "Start a heated discussion about a taboo or outrageous topic in a town square to test local attitudes. Your boldness and choice of words could trigger unexpected reactions—opening up new quest opportunities or stirring up trouble."
+    },
+    {
+      "id": "hyperbolic-confession",
+      "title": "Hyperbolic Confession",
+      "content": "Make a wildly exaggerated declaration of your character's love, hatred, or grudge against a common enemy (or even a beloved NPC) in a way that shocks everyone around you. This can rally supportive townsfolk or create a stir among rivals."
+    },
+    {
+      "id": "double-agent",
+      "title": "Bizarre Double Agent Roleplay",
+      "content": "Adopt a completely fictitious identity complete with a fake accent, code words, and an absurd backstory to blend in—or sow chaos—in enemy ranks. A successful Deception check might let you slip past guards or even gather secret intel while everyone's too amused to suspect a thing."
+    },
+    {
+      "id": "synchronized-spectacle",
+      "title": "Synchronized Party Spectacle",
+      "content": "Rally your companions for a spontaneous group performance—singing, dancing, or a coordinated cheer—that electrifies the moment and distracts adversaries. It's a fun team-building stunt that could momentarily tilt the battlefield in your favor."
+    }
+  ]
+}

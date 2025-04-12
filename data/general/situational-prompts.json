@@ -1,0 +1,57 @@
+{
+  "title": "Situational Prompts",
+  "icon": "HelpCircle",
+  "color": "text-rose-600",
+  "items": [
+    {
+      "id": "character-knowledge",
+      "title": "Character Knowledge",
+      "content": "What would my character know about this situation?"
+    },
+    {
+      "id": "skills-tools",
+      "title": "Skills and Tools",
+      "content": "What skills or tools do I have that might be useful here?"
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "content": "How can I use the environment to my advantage?"
+    },
+    {
+      "id": "goals-motivations",
+      "title": "Goals and Motivations",
+      "content": "What are my character's goals and motivations in this moment?"
+    },
+    {
+      "id": "test-limits",
+      "title": "Test Your Limits",
+      "content": "Try an action that's just a bit out of your comfort zone. Whether it's a difficult social encounter or a risky physical stunt, pushing your limits can reveal hidden strengths."
+    },
+    {
+      "id": "patterns-signs",
+      "title": "Look for Patterns and Signs",
+      "content": "Pay attention to recurring symbols, colors, or phrases in your surroundings. They might not mean much at first, but could hint at a mystery or a larger plot at work."
+    },
+    {
+      "id": "character-moment",
+      "title": "Plan a Character Moment",
+      "content": "Think about a moment that defines your character—what would they do if pushed to an emotional limit? Acting on that impulse can bring depth to your roleplaying and change the current situation."
+    },
+    {
+      "id": "local-folklore",
+      "title": "Gather Local Folklore",
+      "content": "In any town or village, talk to elders or minstrels about local legends or ghost stories. This can spur you to explore mysterious sites or heed warnings that shape your next move."
+    },
+    {
+      "id": "spiritual-connection",
+      "title": "Connect with the Environment Spiritually",
+      "content": "Try a moment of quiet reflection or \"communion\" with the land, which might reveal subtle hints about upcoming dangers or rewards."
+    },
+    {
+      "id": "seasonal-activities",
+      "title": "Tap into Seasonal Activities",
+      "content": "Whether it's harvesting a crop, joining in a local winter festival, or chasing autumn leaves, seasonal events can offer fresh inspiration. These activities are not only fun but can also connect you to the community."
+    }
+  ]
+}

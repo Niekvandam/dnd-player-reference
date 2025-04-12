@@ -1,0 +1,32 @@
+{
+  "title": "Armor & Protection",
+  "icon": "Shield",
+  "color": "text-blue-600",
+  "items": [
+    {
+      "id": "armor-types",
+      "title": "Armor Types",
+      "content": [
+        {
+          "label": "Light Armor",
+          "description": "Adds Dexterity modifier to AC"
+        },
+        {
+          "label": "Medium Armor",
+          "description": "Adds Dexterity modifier (max +2) to AC"
+        },
+        {
+          "label": "Heavy Armor",
+          "description": "Fixed AC value, no Dexterity bonus"
+        }
+      ],
+      "note": "Some armor gives Disadvantage to Stealth checks & some armor have Strength prerequisites."
+    },
+    {
+      "id": "armor-class",
+      "title": "Armor Class (AC)",
+      "content": "Determines how easily you can be hit, either via agility or armor. Attack rolls must meet or exceed AC to hit. Increased by armor, magic, abilities, items etc.",
+      "details": ["Without Armor = 10 + Dexterity Modifier", "Shield = +2 AC"]
+    }
+  ]
+}

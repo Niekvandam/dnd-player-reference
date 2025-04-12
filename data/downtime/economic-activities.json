@@ -1,0 +1,29 @@
+{
+  "title": "Economic Activities",
+  "icon": "Store",
+  "color": "text-amber-600",
+  "items": [
+    {
+      "id": "crafting",
+      "title": "Crafting",
+      "content": "Craft items using appropriate tools. You can craft items worth 5 gp per day. The cost of materials is half the item's price.",
+      "example": "Forging a sword, brewing potions, crafting jewelry"
+    },
+    {
+      "id": "practicing-profession",
+      "title": "Practicing a Profession",
+      "content": "Earn money by working a job. Make an ability check using the appropriate skill or tool. You earn money based on your result.",
+      "example": "Working as a blacksmith, performing at taverns, offering mercenary services"
+    },
+    {
+      "id": "equipment-customization",
+      "title": "Equipment Customization",
+      "content": "Modify weapons and armor over time using crafting or magical enhancement. Provides unique personalization options and mechanical benefits."
+    },
+    {
+      "id": "trade-competitions",
+      "title": "Trade and Crafting Competitions",
+      "content": "Participate in contests that pit you against local artisans or rival groups for rare materials or exclusive recipes. Engenders friendly rivalry and adds fun, side-challenge layers to non-adventuring days."
+    }
+  ]
+}

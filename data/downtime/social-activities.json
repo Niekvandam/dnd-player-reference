@@ -1,0 +1,29 @@
+{
+  "title": "Social Activities",
+  "icon": "Users",
+  "color": "text-blue-600",
+  "items": [
+    {
+      "id": "carousing",
+      "title": "Carousing",
+      "content": "Spend time and money socializing. This can lead to new contacts, information, or complications. The cost depends on your lifestyle.",
+      "example": "Attending noble parties, drinking at taverns, participating in festivals"
+    },
+    {
+      "id": "gambling",
+      "title": "Gambling",
+      "content": "Risk money for the chance to win more. This typically involves Wisdom, Charisma, or Dexterity checks, depending on the game.",
+      "example": "Playing cards in a tavern, betting on gladiatorial matches, dice games"
+    },
+    {
+      "id": "base-building",
+      "title": "Base Building",
+      "content": "Establish a party base or guild headquarters where you can invest resources, recruit NPCs, and improve defenses. Serves as a hub for planning, trade, and future adventures."
+    },
+    {
+      "id": "extended-roleplaying",
+      "title": "Extended Social Roleplaying",
+      "content": "Develop long-term relationships—friendly alliances or bitter rivalries—with recurring NPCs that impact the storyline. These relationships evolve as you repeatedly interact with the same characters."
+    }
+  ]
+}

@@ -2,7 +2,8 @@ import type React from "react"
 import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider as NextThemesProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/contexts/theme-context"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -27,9 +28,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={`${inter.className} bg-stone-100`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-          {children}
+      <body className={`${inter.className} bg-cream`}>
+        <ThemeProvider>
+          <NextThemesProvider attribute="class" defaultTheme="light" enableSystem={false}>
+            {children}
+          </NextThemesProvider>
         </ThemeProvider>
       </body>
     </html>

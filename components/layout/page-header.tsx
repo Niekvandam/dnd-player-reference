@@ -5,6 +5,7 @@ import { Search } from "lucide-react"
 import { RandomIdeaButton } from "@/components/ui/random-idea-button"
 import { SearchResults } from "@/components/ui/search-results"
 import { useSearch } from "@/hooks/use-search"
+import { ThemeSlider } from "@/components/ui/theme-slider"
 
 interface PageHeaderProps {
   setActiveTab: (tab: string) => void
@@ -15,6 +16,9 @@ export function PageHeader({ setActiveTab }: PageHeaderProps) {
 
   return (
     <header className="mb-8">
+      <div className="flex justify-end mb-2">
+        <ThemeSlider />
+      </div>
       <h1 className="page-title">D&D Player Reference</h1>
       <p className="page-subtitle">
         A comprehensive guide to your options in different scenarios to enhance your gameplay experience.
@@ -25,7 +29,7 @@ export function PageHeader({ setActiveTab }: PageHeaderProps) {
           <Input
             type="search"
             placeholder="Search for actions or situations..."
-            className="pl-10 bg-white border-gray-200 rounded-md"
+            className="pl-10 bg-white border-gray-200 rounded-md dark:bg-gray-800 dark:border-gray-700"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />

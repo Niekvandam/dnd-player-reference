@@ -31,142 +31,144 @@ export function CombatSection() {
             Actions, bonus actions, reactions, and movement options available during combat.
           </p>
         </div>
-        <div className="p-0">
-          <ScrollArea className="h-[1000px] md:h-[900px] p-6">
-            <div className="grid gap-6 md:grid-cols-2">
-              <div>
-                <SectionHeader icon={Zap} title={combatBasics.title} color={combatBasics.color} />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {combatBasics.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        {Array.isArray(item.content) ? (
-                          <ul className="list-disc pl-6 space-y-2">
-                            {item.content.map((contentItem, idx) => (
-                              <li key={idx}>
-                                <strong>{contentItem.label}:</strong> {contentItem.description}
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p>{item.content}</p>
-                        )}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-
-                <SectionHeader icon={Zap} title={actions.title} color={actions.color} className="mt-6" />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {actions.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        {Array.isArray(item.content) ? (
-                          <ul className="list-disc pl-6 space-y-2">
-                            {item.content.map((contentItem, idx) => (
-                              <li key={idx}>{contentItem}</li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p>{item.content}</p>
-                        )}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </div>
-
-              <div>
-                <SectionHeader icon={Zap} title={bonusActions.title} color={bonusActions.color} />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {bonusActions.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        <p>{item.content}</p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-
-                <SectionHeader icon={Shield} title={reactions.title} color={reactions.color} className="mt-6" />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {reactions.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        <p>{item.content}</p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-
-                <SectionHeader icon={Move} title={movement.title} color={movement.color} className="mt-6" />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {movement.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        {Array.isArray(item.content) ? (
-                          <ul className="list-disc pl-6 space-y-2">
-                            {item.content.map((contentItem, idx) => (
-                              <li key={idx}>{contentItem}</li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p>{item.content}</p>
-                        )}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-
-                <SectionHeader
-                  icon={Sword}
-                  title={weaponProperties.title}
-                  color={weaponProperties.color}
-                  className="mt-6"
-                />
-                <div className="p-4 bg-stone-50 rounded-lg border border-stone-200">
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    {weaponProperties.items.map((item) => (
-                      <li key={item.id}>
-                        <strong>{item.title}</strong> - {item.content}
-                      </li>
+        <div className="scroll-container">
+          <ScrollArea className="flex-1">
+            <div className="p-6">
+              <div className="grid gap-6 md:grid-cols-2">
+                <div>
+                  <SectionHeader icon={Zap} title={combatBasics.title} color={combatBasics.color} />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {combatBasics.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          {Array.isArray(item.content) ? (
+                            <ul className="list-disc pl-6 space-y-2">
+                              {item.content.map((contentItem, idx) => (
+                                <li key={idx}>
+                                  <strong>{contentItem.label}:</strong> {contentItem.description}
+                                </li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>{item.content}</p>
+                          )}
+                        </AccordionContent>
+                      </AccordionItem>
                     ))}
-                  </ul>
+                  </Accordion>
+
+                  <SectionHeader icon={Zap} title={actions.title} color={actions.color} className="mt-6" />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {actions.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          {Array.isArray(item.content) ? (
+                            <ul className="list-disc pl-6 space-y-2">
+                              {item.content.map((contentItem, idx) => (
+                                <li key={idx}>{contentItem}</li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>{item.content}</p>
+                          )}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
+
+                <div>
+                  <SectionHeader icon={Zap} title={bonusActions.title} color={bonusActions.color} />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {bonusActions.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          <p>{item.content}</p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+
+                  <SectionHeader icon={Shield} title={reactions.title} color={reactions.color} className="mt-6" />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {reactions.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          <p>{item.content}</p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+
+                  <SectionHeader icon={Move} title={movement.title} color={movement.color} className="mt-6" />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {movement.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          {Array.isArray(item.content) ? (
+                            <ul className="list-disc pl-6 space-y-2">
+                              {item.content.map((contentItem, idx) => (
+                                <li key={idx}>{contentItem}</li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>{item.content}</p>
+                          )}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+
+                  <SectionHeader
+                    icon={Sword}
+                    title={weaponProperties.title}
+                    color={weaponProperties.color}
+                    className="mt-6"
+                  />
+                  <div className="p-4 bg-stone-50 rounded-lg border border-stone-200 mb-6">
+                    <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                      {weaponProperties.items.map((item) => (
+                        <li key={item.id}>
+                          <strong>{item.title}</strong> - {item.content}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

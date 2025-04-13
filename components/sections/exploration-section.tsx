@@ -27,102 +27,104 @@ export function ExplorationSection() {
           </h2>
           <p className="section-description">Actions, activities, and considerations during travel and exploration.</p>
         </div>
-        <div className="p-0">
-          <ScrollArea className="h-[1000px] md:h-[900px] p-6">
-            <div className="grid gap-6 md:grid-cols-2">
-              <div>
-                <SectionHeader icon={Route} title={wildernessActions.title} color={wildernessActions.color} />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {wildernessActions.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        <p>{item.content}</p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-
-                <SectionHeader icon={Footprints} title={travelPace.title} color={travelPace.color} className="mt-6" />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {travelPace.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        {Array.isArray(item.content) ? (
-                          <ul className="list-disc pl-6 space-y-2">
-                            {item.content.map((contentItem, idx) => (
-                              <li key={idx}>
-                                <strong>{contentItem.label}:</strong> {contentItem.description}
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
+        <div className="scroll-container">
+          <ScrollArea className="flex-1">
+            <div className="p-6">
+              <div className="grid gap-6 md:grid-cols-2">
+                <div>
+                  <SectionHeader icon={Route} title={wildernessActions.title} color={wildernessActions.color} />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {wildernessActions.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
                           <p>{item.content}</p>
-                        )}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </div>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
 
-              <div>
-                <SectionHeader
-                  icon={Mountain}
-                  title={environmentalInteractions.title}
-                  color={environmentalInteractions.color}
-                />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {environmentalInteractions.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        <p>{item.content}</p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
+                  <SectionHeader icon={Footprints} title={travelPace.title} color={travelPace.color} className="mt-6" />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {travelPace.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          {Array.isArray(item.content) ? (
+                            <ul className="list-disc pl-6 space-y-2">
+                              {item.content.map((contentItem, idx) => (
+                                <li key={idx}>
+                                  <strong>{contentItem.label}:</strong> {contentItem.description}
+                                </li>
+                              ))}
+                            </ul>
+                          ) : (
+                            <p>{item.content}</p>
+                          )}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
 
-                <SectionHeader
-                  icon={Map}
-                  title={potentialEncounters.title}
-                  color={potentialEncounters.color}
-                  className="mt-6"
-                />
-                <Accordion type="single" collapsible className="w-full space-y-2">
-                  {potentialEncounters.items.map((item) => (
-                    <AccordionItem
-                      key={item.id}
-                      value={item.id}
-                      className="border border-gray-200 rounded-md overflow-hidden bg-white"
-                    >
-                      <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
-                        {item.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
-                        <p>{item.content}</p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
+                <div>
+                  <SectionHeader
+                    icon={Mountain}
+                    title={environmentalInteractions.title}
+                    color={environmentalInteractions.color}
+                  />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {environmentalInteractions.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          <p>{item.content}</p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+
+                  <SectionHeader
+                    icon={Map}
+                    title={potentialEncounters.title}
+                    color={potentialEncounters.color}
+                    className="mt-6"
+                  />
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {potentialEncounters.items.map((item) => (
+                      <AccordionItem
+                        key={item.id}
+                        value={item.id}
+                        className="border border-gray-200 rounded-md overflow-hidden bg-white"
+                      >
+                        <AccordionTrigger className="px-4 py-3 hover:bg-gray-50 text-gray-800">
+                          {item.title}
+                        </AccordionTrigger>
+                        <AccordionContent className="px-4 pb-3 pt-1 text-gray-700">
+                          <p>{item.content}</p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
               </div>
             </div>
           </ScrollArea>
